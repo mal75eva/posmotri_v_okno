@@ -42,7 +42,8 @@ ol {
   display: flex;
   align-items: flex-end;
   width: 1140px;
-  gap: 30px;
+  height: 534px;
+  gap: 28px;
   margin: auto;
 }
 
@@ -104,6 +105,7 @@ ol {
   border-top: 1px solid #FFF;
   border-bottom: 1px solid #FFF;
   border-right: none;
+  border-left: none;
   display: flex;
   width: 225px;
   height: 27px;
@@ -200,6 +202,7 @@ ol {
 }
 
 .title {
+  padding-left: 2px;
   font-family: Oswald, sans-serif;
   font-size: 75px;
   font-style: normal;
@@ -219,6 +222,9 @@ ol {
   display: flex;
   gap: 30px;
   flex-direction: column;
+  padding-right: 2px;
+  padding-left: 2px;
+  padding-bottom: 2px;
 }
 
 .content__card-link {
